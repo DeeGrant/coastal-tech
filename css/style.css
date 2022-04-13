@@ -22,25 +22,52 @@ html {
     color: #dcdde5;
     background: #1d222c url("/assets/nasa-Q1p7bh3SHj8-unsplash.jpg") fixed center center no-repeat;
     background-size: cover;
-    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    text-align: center;
+}
+a {
+    color: #dcdde5;
 }
 
 /* ------ Layout ------ */
-header, footer {
-    height: 500px;
-    text-align: center;
+header {
+    margin: 180px 0;
 }
-.cta {
-    text-align: center;
+.summary, .services, .cta {
+    padding: 60px 120px;
+}
+.services > div {
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+    padding: 30px 0;
 }
 
 /* ------ Additional Styles ------ */
+header h1, header h2 {
+    font-family: Play, Helvetica, sans-serif;
+}
 header > h1 {
-    font-family: "Bebas Neue", Arial, sans-serif;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+header > h2 {
+    font-size: 24px;
+    letter-spacing: 3px;
+    margin-top: 0;
+    text-transform: uppercase;
 }
 main, footer {
-    background: #1d222c;
+    background: linear-gradient(#1d222c, #141823);
 }
 main i {
     font-size: 3rem;
+}
+footer span {
+    padding-right: 40px;
+}
+footer span:last-child {
+    padding-right: 0;
 }
