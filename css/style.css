@@ -27,21 +27,33 @@ html {
 }
 a {
     color: #dcdde5;
+    text-decoration: none;
 }
 
 /* ------ Layout ------ */
 header {
-    margin: 180px 0;
+    margin: 160px 0;
 }
 .summary, .services, .cta {
     padding: 60px 120px;
 }
+.summary {
+    display: flex;
+    justify-content: center;
+}
+.summary p {
+    width: 60%;
+}
+.services {
+    padding-top: 0;
+}
 .services > div {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 footer {
-    padding: 30px 0;
+    padding: 15px 0;
 }
 
 /* ------ Additional Styles ------ */
@@ -59,14 +71,30 @@ header > h2 {
     margin-top: 0;
     text-transform: uppercase;
 }
+.btn {
+    border: 1px solid #dcdde5;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 40px 0;
+    text-transform: uppercase;
+}
 main, footer {
     background: linear-gradient(#1d222c, #141823);
+    border-radius: 16px;
 }
 main i {
     font-size: 3rem;
 }
+main p {
+    width: 300px;
+    padding: 0 20px;
+}
+h3 {
+    margin-bottom: 60px;
+}
 footer span {
-    padding-right: 40px;
+    padding-right: 80px;
 }
 footer span:last-child {
     padding-right: 0;
