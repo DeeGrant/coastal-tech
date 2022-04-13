@@ -24,9 +24,6 @@ html {
     background-size: cover;
     font-family: "Roboto Condensed", Arial, sans-serif;
 }
-header {
-    /*background: url("/assets/nasa-Q1p7bh3SHj8-unsplash.jpg") center;*/
-}
 
 /* ------ Layout ------ */
 header, footer {
