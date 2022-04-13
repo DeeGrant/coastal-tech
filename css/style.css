@@ -1,0 +1,49 @@
+/* ------ Box Model ------ */
+* {
+    box-sizing: border-box;
+}
+
+/* ------ Clearfix ------ */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/* ------ Base Styles ------ */
+html {
+    color: #dcdde5;
+    background: #1d222c url("/assets/nasa-Q1p7bh3SHj8-unsplash.jpg") fixed center center no-repeat;
+    background-size: cover;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
+header {
+    /*background: url("/assets/nasa-Q1p7bh3SHj8-unsplash.jpg") center;*/
+}
+
+/* ------ Layout ------ */
+header, footer {
+    height: 500px;
+    text-align: center;
+}
+.cta {
+    text-align: center;
+}
+
+/* ------ Additional Styles ------ */
+header > h1 {
+    font-family: "Bebas Neue", Arial, sans-serif;
+}
+main, footer {
+    background: #1d222c;
+}
+main i {
+    font-size: 3rem;
+}
